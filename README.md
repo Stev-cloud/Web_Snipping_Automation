@@ -24,7 +24,7 @@ This Python script automates the process of capturing scrolling screenshots of a
 
 Make sure to install the following Python libraries:
 
-\\ bash
+- bash
 pip install pyautogui python-docx Pillow
 
 
@@ -36,11 +36,11 @@ Set your browser window and content at the correct position.
 
 ## Run the script using:
 
-bash
-Copy
-Edit
-python script.py
-The script waits 5 seconds so you can focus your browser window.
+- bash
+- Copy
+- Edit
+- python script.py
+- The script waits 5 seconds so you can focus your browser window.
 
 It then begins taking and comparing screenshots until it detects the end of the page.
 
@@ -52,13 +52,12 @@ Your .docx file will be saved in the specified output directory.
 
 Modify these settings in the script as per your screen resolution:
 
-python
-Copy
-Edit
-crop_left = 120
-crop_top = 150
-crop_width = 1130
-crop_height = 510
+- crop_left = 120
+- crop_top = 150
+- crop_width = 1130
+- crop_height = 510
+
+  
 These control the screenshot cropping area for each page capture.
 
 ---
