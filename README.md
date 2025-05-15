@@ -1,6 +1,6 @@
 # Website Screenshot Automation Script
 
-This Python script automates the process of capturing scrolling screenshots of a webpage and compiles them into a Microsoft Word document. It uses `pyautogui` for controlling the mouse and taking screenshots, `Pillow` for image comparison, and `python-docx` for creating the Word file.
+This Python script automates the process of capturing scrolling screenshots of a webpage and compiles them into a Microsoft Word document. It uses `Pillow` for image comparison, and `python-docx` for creating the Word file.
 
 ---
 
@@ -28,10 +28,13 @@ Make sure to install the following Python libraries:
 pip install pyautogui python-docx Pillow
 
 
-Usage
+##  Usage
+
 Set your browser window and content at the correct position.
 
-Run the script using:
+---
+
+## Run the script using:
 
 bash
 Copy
@@ -43,7 +46,10 @@ It then begins taking and comparing screenshots until it detects the end of the 
 
 Your .docx file will be saved in the specified output directory.
 
-Configuration
+---
+
+##  Configuration
+
 Modify these settings in the script as per your screen resolution:
 
 python
@@ -55,18 +61,17 @@ crop_width = 1130
 crop_height = 510
 These control the screenshot cropping area for each page capture.
 
-Output Path
-The Word document is saved here by default:
+---
 
-makefile
-Copy
-Edit
-C:\Users\HAI\OneDrive - Kumaraguru College of Technology\Documents\scroller\Website_Document_Capture.docx
-You can change the path in the script as needed.
+## Cleanup
 
-Cleanup
 Temporary screenshot images are automatically deleted after the Word file is saved.
 
-Credits
+---
+
+## Credits
+
 Developed by Steven Josh to simplify documentation of long-scrollable web pages.
+
+---
 
