@@ -27,11 +27,6 @@ Make sure to install the following Python libraries:
 - bash
 pip install pyautogui python-docx Pillow
 
-
-##  Usage
-
-Set your browser window and content at the correct position.
-
 ---
 
 ## Run the script using:
@@ -62,15 +57,6 @@ These control the screenshot cropping area for each page capture.
 
 ---
 
-## Cleanup
-
-Temporary screenshot images are automatically deleted after the Word file is saved.
-
----
-
 ## Credits
 
 Developed by Steven Josh to simplify documentation of long-scrollable web pages.
-
----
-
